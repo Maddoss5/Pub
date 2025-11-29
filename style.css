@@ -1,0 +1,56 @@
+
+h1{
+
+color: white;
+background-color: slategray;
+font-size: larger;
+font: bolder;
+}
+
+img
+{
+border-radius: 2cm;
+border-style: double;
+border: mediumvioletred;
+border-color: aquamarine;
+}
+
+
+h2{
+
+color: #1bb9e9;
+background-color: slategray;
+font-size: larger;
+font: bolder;
+}
+
+
+h3{
+
+color: rgb(5, 25, 92);
+background-color: slategray;
+font-size: larger;
+font: bolder;
+}
+
+
+h4{
+
+color: white;
+background-color: slategray;
+font-size: larger;
+font: bolder;
+}
+
+
+p{
+
+color: white;
+background-color: slategray;
+font-size: larger;
+font: bolder;
+width: 300px;
+padding: 20px;
+border: 2px solid black;
+border-radius: 15px;
+}
