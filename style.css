@@ -1,26 +1,37 @@
 
 body{
-
-background-image: url(bkg.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
+background:linear-gradient(skyblue,rgb(224, 110, 110));
+background-repeat: repeat-x;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+animation: lulboy 5s ;
+animation-iteration-count:infinite;
 }
 
 
 
 h1{
 
-color: white;
-background-color: slategray;
+color: rgb(7, 0, 0);
+background-color: rgb(104, 98, 98);
 font-size: larger;
 font: bolder;
+font-size: 30px;
 width: 200px;
 border-radius: 10px;
 padding: 5px;
+
+
 }
+h1:hover{
+
+text-shadow: 0px 5px 2px rgba(241, 238, 50, 0.986), 0px -4px 3px skyblue;
+box-shadow: 0px 5px 3px rgba(255, 255, 3, 0.527);
+
+}
+
+
+
+
 
 img
 {
@@ -114,12 +125,13 @@ border-radius: 15px;
 
 #p1
 {
-background-color: rgb(2, 36, 48);
-color: rgb(216, 124, 124);
-  font-family: "Playwrite US Trad Guides", 'Sans-serif', cursive;
+background:linear-gradient(to top,rgb(226, 240, 100),rgb(91, 206, 139));
+color: rgb(16, 32, 2);
+  font-family:  'Sans-serif';
   font-weight: 400;
   font-style: normal;
-
+padding: 40px;
+animation: lulboy 3s infinite;
 }
 
 .kek
@@ -133,3 +145,77 @@ font-family: 'Playwrite US Trad Guides', cursive;
   font-style: normal;
 }
 
+#peg
+{
+background-image: url(bkg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 500px;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+text-shadow: 0px 5px 2px rgba(163, 243, 87, 0.425), 0px -4px 3px skyblue;
+box-shadow: 2px 5px 3px rgba(26, 26, 2, 0.527);
+
+animation: lulboy 3s infinite;
+}
+
+#wo
+{ 
+
+background:linear-gradient(to top,rgb(7, 56, 58),rgb(14, 92, 46));
+background-repeat: no-repeat;
+background-size: cover;
+width: 500px;
+padding: 10px;
+
+margin-right: auto;
+}
+
+
+a:link {
+  color: rgb(12, 12, 243);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(233, 52, 52);
+  background-color: transparent;
+  text-decoration: none;
+    border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+a:hover {
+  color: rgb(12, 243, 136);
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  animation: lulboy 3s infinite;
+}
+
+
+button:active {
+  background-color: thistle;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 15px;
+
+  animation: lulboy 3s infinite;
+}
+
+@keyframes lulboy {
+ 
+  from {background-color: rgb(27, 201, 5);}
+  to {background-color: rgb(239, 247, 242);}
+  
+}
